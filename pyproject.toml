@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+version = "0.0.1"
+authors = [
+    {name = "Ligo Scientific Collaboration (LSC) and Jun Kang"}
+]
+description = "LIGO tutorial utilities for Stat 159/259 HW3"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "h5py"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ligotools*"]
