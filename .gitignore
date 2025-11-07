@@ -1,0 +1,16 @@
+# Ignore system and temporary files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore build and output folders
+_build/
+figures/*
+audio/*
+data/*.csv
+
+# Jupyter and MyST caches
+.ipynb_checkpoints/
+.cache/
+# MyST build outputs
+_build
