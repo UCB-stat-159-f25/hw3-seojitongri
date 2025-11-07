@@ -1,0 +1,17 @@
+version: 1
+
+project:
+  title: "HW3 – LIGO Gravitational Wave Analysis"
+  authors:
+    - name: "Seojin Tongri"
+      affiliation: "UC Berkeley, Department of Statistics"
+  binder: "https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-seojitongri/main"
+  github: "https://github.com/UCB-stat-159-f25/hw3-seojitongri"
+
+site:
+  template: book-theme
+  nav:
+    - title: "Overview"
+      url: README.md
+    - title: "LIGO Tutorial"
+      url: LOSC_Event_tutorial.ipynb
