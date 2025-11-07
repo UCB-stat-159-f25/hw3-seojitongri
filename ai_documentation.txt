@@ -1,0 +1,6 @@
+AI tools (ChatGPT) were used for:
+- Structuring the repository and Makefile commands.
+- Debugging utils.py and test_readligo.py.
+- Writing concise explanations for README and MyST setup.
+Prompts included guidance on path organization, figure routing, and Makefile simplification.
+Outputs were reviewed and edited manually before committing.
